@@ -15,6 +15,12 @@
     background-color: var(--bg-content);
   }
 
+  .header,
+  .header img {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+  }
+
   footer {
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
