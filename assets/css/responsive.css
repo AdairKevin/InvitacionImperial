@@ -1,0 +1,21 @@
+/* Diseño responsivo para pantallas grandes */
+@media only screen and (min-width: 768px) {
+  body {
+    background: var(--bg-gradient);
+    position: relative;
+    padding: 3rem;
+    font-size: 1rem;
+  }
+
+  .content {
+    width: 600px;
+    position: relative;
+    border-radius: 2rem;
+    background-color: white;
+  }
+
+  footer {
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+  }
+}

@@ -1,0 +1,13 @@
+/* -----------------------
+        FOOTER
+--------------------------*/
+footer {
+  background-color: var(--bg-section-dark);
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+footer a {
+  color: var(--bg-color-2);
+}
