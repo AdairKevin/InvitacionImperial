@@ -36,6 +36,20 @@ document.addEventListener("DOMContentLoaded", () => {
   setInterval(updateCountdown, MILLISECONDS_OF_A_SECOND);
 });
 
-function PlayAudio() {
-  document.getElementById("musica1").play();
-}
+const audio = document.getElementById("audioPlayer");
+const playPauseBtn = document.getElementById("playPauseBtn");
+
+playPauseBtn.addEventListener("click", () => {
+  if (audio.paused) {
+    audio.play();
+    playPauseBtn.textContent = "⏸";
+  } else {
+    audio.pause();
+    playPauseBtn.textContent = "▶";
+  }
+});
+
+audio.addEventListener("ended", () => {
+  playPauseBtn.textContent = "▶";
+  progressBar.style.width = "0%";
+});
