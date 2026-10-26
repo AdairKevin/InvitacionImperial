@@ -1,5 +1,7 @@
+/* Los datos vienen de contenido.json (los carga motor.js en window.INVITACION) */
 document.addEventListener("DOMContentLoaded", () => {
-  const DATE_TARGET = new Date("11/15/2025 01:30 PM");
+  // La fecha se cambia en evento.inicio de contenido.json
+  const DATE_TARGET = new Date(window.INVITACION.evento.inicio);
 
   const SPAN_DAYS = document.querySelector("span#days");
   const SPAN_HOURS = document.querySelector("span#hours");

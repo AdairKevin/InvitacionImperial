@@ -1,0 +1,90 @@
+{
+  "_instrucciones": "Aquí se cambian TODOS los textos, fotos, links y datos de la invitación. Cambia solo lo que está a la derecha de los dos puntos. Los textos aceptan <br /> para saltos de línea. Para ocultar un grupo agrega \"mostrar\": false dentro de él solo si la plantilla lo permite. La fecha de evento.inicio (AAAA-MM-DDTHH:MM) la usan la cuenta regresiva y el calendario. Los colores de la paleta de vestimenta van en vestimenta.colores (códigos HEX).",
+  "pagina": {
+    "titulo": "Invitacion Imperial"
+  },
+  "evento": {
+    "inicio": "2025-11-15T13:30"
+  },
+  "portada": {
+    "foto": "assets/img/portada.jpg",
+    "fotoAlt": "Pareja",
+    "evento": "Nuestra Boda",
+    "fecha": "18/08/2025",
+    "musica": "./assets/Sunsetz - Cigarettes After Sex.mp3",
+    "nombres": "Vladimir & Natalia",
+    "frase": "“Mejores son dos que uno; porque tienen mejor paga de su trabajo. Porque si cayeren, el uno levantará a su compañero; pero ¡ay del solo! que cuando cayere, no habrá segundo que lo levante.” <b>(Eclesiastés 4:9-10)</b>",
+    "separador": "assets/img/separador1.png",
+    "tituloPadres": "Con la bendicion de nuestros Padres",
+    "familia": [
+      {
+        "titulo": "Padres del Novio",
+        "nombre1": "Cesar Jiménez García",
+        "nombre2": "Erika palacios dela peña"
+      },
+      {
+        "titulo": "Padres de la Novia",
+        "nombre1": "Cesar Jiménez García",
+        "nombre2": "Erika palacios dela peña"
+      }
+    ],
+    "tituloPadrinos": "Y nuestros Padrinos",
+    "padrinos": [
+      "Cesar Jiménez García",
+      "Erika palacios dela peña"
+    ]
+  },
+  "cuentaRegresiva": {
+    "dias": "Días",
+    "horas": "Hrs",
+    "minutos": "Min",
+    "segundos": "Seg"
+  },
+  "fotoDivisora1": {
+    "foto": "assets/img/portada3.jpg"
+  },
+  "vestimenta": {
+    "titulo": "DRESS CODE",
+    "codigo": "El codigo de vestimenta es Formal",
+    "texto": "Nos encantaría que nos acompañen en la gama de colores de nuestra celebración:",
+    "colores": [
+      "#e6d5cf",
+      "#b0a59c",
+      "#2e2e2e",
+      "#003049"
+    ]
+  },
+  "ubicaciones": {
+    "ceremoniaTitulo": "Ceremonia Religiosa",
+    "ceremoniaLugar": "Parroquia Nuestra Señora de Guadalupe",
+    "ceremoniaDireccion": "Villa Park Petergof, Calle Zolotaya 2, Piterhof",
+    "ceremoniaMapa": "#",
+    "ceremoniaBoton": "Ver Ubicación",
+    "recepcionTitulo": "Recepción",
+    "recepcionLugar": "Salón de Eventos \"Las Orquideas\"",
+    "recepcionDireccion": "Villa Park Petergof, Calle Zolotaya 2, Piterhof",
+    "recepcionMapa": "#",
+    "recepcionBoton": "Ver Ubicación"
+  },
+  "fotoDivisora2": {
+    "foto": "assets/img/portada3.jpg"
+  },
+  "regalos": {
+    "titulo": "Mesa de Regalos",
+    "texto": "Tu presencia es el mejor regalo, pero si deseas contribuir con algo más, aquí tienes nuestro numero de cuenta:",
+    "cuenta": "Mercado Pago <br> 1234 - 5678 - 9012 - 3456",
+    "separador": "assets/img/separador1.png"
+  },
+  "confirmacion": {
+    "frase": "Los mejores momentos, merecen ser compartidos",
+    "agradecimiento": "!Gracias por acompañarnos en este día tan especial!",
+    "link": "#",
+    "boton": "Confirmar Asistencia"
+  },
+  "footer": {
+    "texto": "Design by",
+    "link": "https://www.facebook.com/profile.php?id=61568997140138",
+    "marca": "Mirai",
+    "anio": "@2025"
+  }
+}
